@@ -1,0 +1,32 @@
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    width: 220px;
+}
+h5{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-family: Lexend;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+h3{
+    font-family: Lexend;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+h4{
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
