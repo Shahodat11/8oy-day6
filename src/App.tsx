@@ -1,19 +1,18 @@
-import './App.css'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
-import MainTop from './components/mainTop/MainTop'
-import Users from './components/users/Users'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home/Home';
+import Contact from './pages/contact/Contact';
+import './App.css';
 
-function App() {
+const App: React.FC = () => (
+  <Router>
+    <div className="container">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </div>
+  </Router>
+);
 
-  return (
-    <>
-    <Header/>
-    <MainTop/>
-    <Users/>
-    <Footer/>
-    </>
-  )
-}
-
-export default App
+export default App;

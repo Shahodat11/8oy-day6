@@ -1,0 +1,41 @@
+.contact{
+    display: flex;
+    padding-top: 50px;
+    gap: 300px;
+}
+.h1{
+    font-family: Lexend;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    padding-left: 30px;
+}
+.contact-p{
+    width: 249px;
+    height: 84px;
+    top: 117px;
+    left: 59px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    padding-bottom: 200px;
+    padding-left: 30px;
+}
+.nav3{
+    display: flex;
+}
+.contact-h2{
+    font-family: Lexend;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.5px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #70737C;
+}

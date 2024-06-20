@@ -5,6 +5,8 @@ import icon from "../../assets/Frame 142.svg"
 import { FaRegHeart } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 
+import { Link } from 'react-router-dom';
+
 const Header = () => {
   return (
     <div className='container'>
@@ -18,10 +20,10 @@ const Header = () => {
                 <a className='a' href="#">ABOUT SEEDRA</a>
             </li>
             <li>
-                <a className='a' href="#">OUR BLOG</a>
+                <a className='a' href="#"><Link className='a' to="/">HOME</Link></a>
             </li>
             <li>
-                <a className='a' href="#">CONTACTS</a>
+                <a className='a' href="#"><Link className='a' to="/contact">CONTACTS</Link></a>
             </li>
         </ul>
         <img src={icon} alt="" />
